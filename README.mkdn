@@ -7,7 +7,9 @@
 the-name-game presents implementations of Shirley Ellis' classic 1964
 name-rhyming algorithm in different programming languages.
 
-See [Wikipedia][http://en.wikipedia.org/wiki/The_Name_Game] for further details. Youtube has the [single][http://www.youtube.com/watch?v=NeF7jqf0GU4] and a performance on on the [Merv Griffin Show[http://www.youtube.com/watch?v=jZ-9_x2bX7g]. 
+See [Wikipedia](http://en.wikipedia.org/wiki/The_Name_Game) for further details. 
+Youtube has the [single](http://www.youtube.com/watch?v=NeF7jqf0GU4) and a performance 
+on the [Merv Griffin Show](http://www.youtube.com/watch?v=jZ-9_x2bX7g). 
 
 ## Usage
 
