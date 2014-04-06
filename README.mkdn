@@ -1,0 +1,47 @@
+# the-name-game
+
+### There isn't any name that I can't rhyme, in any language
+
+## Introduction
+
+the-name-game presents implementations of Shirley Ellis' classic 1964
+name-rhyming algorithm in different programming languages.
+
+See [Wikipedia][http://en.wikipedia.org/wiki/The_Name_Game] for further details. Youtube has the [single][http://www.youtube.com/watch?v=NeF7jqf0GU4] and a performance on on the [Merv Griffin Show[http://www.youtube.com/watch?v=jZ-9_x2bX7g]. 
+
+## Usage
+
+Each implementation takes a name as its only command line argument and
+prints the rhyne to stdout.
+
+Type 'make' in the top level directory to build the compiled language
+versions and test all implementations. This will require you to have
+the compilers and run time environments for each language installed;
+see the Makefile for details. 
+
+This was tested on Ubuntu but with a bit of hacking will work on other
+systems as there's nothing platform dependent.
+
+## Implementations
+
+* C99
+* C++11
+* Emacs Lisp
+* Java
+* Perl
+* Ruby
+
+## Author
+
+Rupert Lane <rupert@rupert-lane.org>
+
+## Copyright and License
+
+This software is copyright (c) 2014 by Rupert Lane.
+
+This is free software, released under the GNU General Public License
+version 3 (or later). See LICENSE for full details.
+
+## Thanks
+
+Mark Lamarr for playing this frequently on his GLR Saturday morning show.
