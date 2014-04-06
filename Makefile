@@ -8,7 +8,8 @@ exec_drivers = \
 scripts = \
 	emacs-lisp/the-name-game-driver.sh	\
 	perl/the-name-game.pl \
-	ruby/the-name-game.rb
+	ruby/the-name-game.rb \
+    R/the-name-game.R
 
 all: build test
 
@@ -44,5 +45,7 @@ JAVA_CLASSES = java/TheNameGame.java java/Name.java
 java/the-name-game-driver.sh: $(JAVA_CLASSES:.java=.class)
 
 # Perl - requires perl 5.10.1 or later
+
+# R - tested with R 3.0.3, no special packages
 
 # Ruby - tested with ruby 1.9.3
