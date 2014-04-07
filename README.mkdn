@@ -33,6 +33,7 @@ systems as there's nothing platform dependent.
 * Perl
 * R
 * Ruby
+* Scala
 
 ## Author
 

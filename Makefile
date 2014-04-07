@@ -9,7 +9,8 @@ scripts = \
 	emacs-lisp/the-name-game-driver.sh	\
 	perl/the-name-game.pl \
 	ruby/the-name-game.rb \
-    R/the-name-game.R
+    R/the-name-game.R \
+	scala/the-name-game.scala
 
 all: build test
 
@@ -24,7 +25,7 @@ test: $(executables) $(exec_drivers) $(scripts)
 	done
 
 clean:
-	-rm $(executables) */*.o *~ */*~ java/*.class
+	-rm $(executables) */*.o *~ */*~ java/*.class scala/*.jar
 
 
 ##############################################################################
@@ -49,3 +50,5 @@ java/the-name-game-driver.sh: $(JAVA_CLASSES:.java=.class)
 # R - tested with R 3.0.3, no special packages
 
 # Ruby - tested with ruby 1.9.3
+
+# Scala - tested with scala 2.9.2
