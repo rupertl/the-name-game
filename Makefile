@@ -7,6 +7,7 @@ exec_drivers = \
 
 scripts = \
 	emacs-lisp/the-name-game-driver.sh	\
+    js/the-name-game.js \
 	perl/the-name-game.pl \
 	ruby/the-name-game.rb \
     R/the-name-game.R \
@@ -52,3 +53,6 @@ java/the-name-game-driver.sh: $(JAVA_CLASSES:.java=.class)
 # Ruby - tested with ruby 1.9.3
 
 # Scala - tested with scala 2.9.2
+
+# Javascript - tested with node.js v0.10.15, not using any node
+# specific features

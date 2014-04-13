@@ -30,6 +30,7 @@ systems as there's nothing platform dependent.
 * C++11
 * Emacs Lisp
 * Java
+* Javascript (via node.js)
 * Perl
 * R
 * Ruby
