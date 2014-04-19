@@ -31,6 +31,7 @@ systems as there's nothing platform dependent.
 * Emacs Lisp
 * Java
 * Javascript (via node.js)
+* OCaml
 * Perl
 * R
 * Ruby

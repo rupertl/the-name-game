@@ -9,6 +9,7 @@ scripts = \
 	emacs-lisp/the-name-game-driver.sh	\
     js/the-name-game.js \
 	perl/the-name-game.pl \
+    ocaml/the-name-game.ml \
 	ruby/the-name-game.rb \
     R/the-name-game.R \
 	scala/the-name-game.scala
@@ -56,3 +57,5 @@ java/the-name-game-driver.sh: $(JAVA_CLASSES:.java=.class)
 
 # Javascript - tested with node.js v0.10.15, not using any node
 # specific features
+
+# Ocaml - tested with ocaml 3.12.1
