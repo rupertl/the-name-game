@@ -2,5 +2,6 @@
 *.o
 /c/the-name-game
 /cpp/the-name-game
+/rust/the-name-game
 /java/*.class
 /scala/the-name-game.jar

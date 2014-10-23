@@ -1,6 +1,7 @@
 executables = \
 	c/the-name-game \
-	cpp/the-name-game
+	cpp/the-name-game \
+	rust/the-name-game
 
 exec_drivers = \
 	java/the-name-game-driver.sh
@@ -59,3 +60,7 @@ java/the-name-game-driver.sh: $(JAVA_CLASSES:.java=.class)
 # specific features
 
 # Ocaml - tested with ocaml 3.12.1
+
+# Rust - tested with rustc 0.12.0-dev nightly
+rust/the-name-game: rust/the-name-game.rs
+	rustc -o rust/the-name-game rust/the-name-game.rs
